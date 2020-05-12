@@ -14,3 +14,9 @@ Useful regex
 ```
 /([\w.]+)\1{9,}/
 ```
+
+## Replace multiple white space with single space
+
+```js
+text.replace(/ {2, }/, ‘ ’)
+```
